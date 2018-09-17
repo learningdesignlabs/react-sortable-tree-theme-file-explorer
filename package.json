@@ -1,12 +1,10 @@
 {
   "name": "react-sortable-tree-theme-file-explorer",
-  "version": "2.0.0",
+  "react-sortable-tree-theme-file-explorer": "https://github.com/learningdesignlabs/react-sortable-tree-theme-file-explorer/tarball/master",
   "description": "File explorer theme for react-sortable-tree",
   "scripts": {
     "build": "npm run clean && cross-env NODE_ENV=production TARGET=umd webpack --bail",
-    "build:demo": "npm run clean:demo && cross-env NODE_ENV=production TARGET=demo webpack --bail",
     "clean": "rimraf dist",
-    "clean:demo": "rimraf build",
     "start": "cross-env NODE_ENV=development TARGET=development webpack-dev-server --inline --hot",
     "lint": "eslint .",
     "prettier": "prettier --single-quote --trailing-comma es5 --write \"**/*.{js,jsx,css,scss}\"",
@@ -19,10 +17,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/frontend-collective/react-sortable-tree-theme-file-explorer"
+    "url": "https://github.com/learningdesignlabs/react-sortable-tree-theme-file-explorer"
   },
-  "homepage": "https://github.com/frontend-collective/react-sortable-tree-theme-file-explorer",
-  "bugs": "https://github.com/frontend-collective/react-sortable-tree-theme-file-explorer/issues",
+  "homepage": "https://github.com/learningdesignlabs/react-sortable-tree-theme-file-explorer",
+  "bugs": "https://github.com/learningdesignlabs/react-sortable-tree-theme-file-explorer/issues",
   "authors": [
     "Chris Fritz"
   ],
