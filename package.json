@@ -1,6 +1,6 @@
 {
   "name": "react-sortable-tree-theme-file-explorer",
-  "react-sortable-tree-theme-file-explorer": "https://github.com/learningdesignlabs/react-sortable-tree-theme-file-explorer/tarball/master",
+  "version": "2.0",
   "description": "File explorer theme for react-sortable-tree",
   "scripts": {
     "build": "npm run clean && cross-env NODE_ENV=production TARGET=umd webpack --bail",
